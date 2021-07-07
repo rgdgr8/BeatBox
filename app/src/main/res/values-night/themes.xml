@@ -3,14 +3,19 @@
     <style name="Theme.BeatBox" parent="Theme.AppCompat">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/teal_200</item>
-        <item name="colorPrimaryVariant">@color/very_dark_grey</item>
+        <item name="colorPrimaryVariant">@color/teal_700</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
         <item name="colorOnSecondary">@color/black</item>
+        <!-- Action bar text color -->
+        <item name="titleTextColor">@color/black</item>
+        <!--<item name="android:textColorPrimary">@color/black</item>-->
         <!-- Button Style -->
         <item name="buttonStyle">@style/BeatBoxButton</item>
+        <!-- Window Background -->
+        <item name="android:windowBackground">@color/teal_200</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->

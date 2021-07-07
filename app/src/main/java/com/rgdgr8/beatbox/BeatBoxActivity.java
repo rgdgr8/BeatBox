@@ -14,7 +14,7 @@ public class BeatBoxActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.beatbox_activity);
 
-        getSupportActionBar().hide();
+        //getSupportActionBar().hide();
         FragmentManager fm = getSupportFragmentManager();
         Fragment frag = fm.findFragmentById(R.id.frame);
 

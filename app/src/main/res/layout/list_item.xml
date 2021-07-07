@@ -6,12 +6,21 @@
             name="viewModel"
             type="com.rgdgr8.beatbox.SoundViewModel" />
     </data>
-    <Button
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_marginHorizontal="5dp"
-        android:layout_marginVertical="5dp"
-        android:layout_height="120dp"
-        android:textColor="@color/black"
-        tools:text="@{viewModel.getName()}"
-        android:onClick="@{()->viewModel.onButtonClicked()}"/>
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:onClick="@{() -> viewModel.onButtonClicked()}"
+            android:longClickable="true"
+            android:onLongClick="@{(view) -> viewModel.onLongClickOnHeading(view)}"
+            android:text="@{viewModel.name}"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:padding="10dp"
+            tools:text="Sound name"/>
+    </FrameLayout>
 </layout>

@@ -23,7 +23,7 @@ public class SoundViewModelTest {
 
     @Test
     public void exposesSoundNameAsTitle() {
-        assertThat(mSubject.getName(), is(mSound.getAssetName()));
+        assertThat(mSubject.getName(), is(mSound.getName()));
     }
 
     @Test
