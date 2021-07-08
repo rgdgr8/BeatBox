@@ -31,10 +31,6 @@ public class BeatBox {
     private SoundPool mSoundPool;
     private Context mCtx;
 
-    public Context getContext() {
-        return mCtx;
-    }
-
     public BeatBox(Context ctx) {
         mCtx = ctx;
         mAssetManager = ctx.getAssets();

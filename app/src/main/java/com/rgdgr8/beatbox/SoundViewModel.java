@@ -59,7 +59,7 @@ public class SoundViewModel extends BaseObservable {
                             mBeatBoxFragment.refreshAdapterOnDelete(pos);
                         } catch (Exception e) {
                             e.printStackTrace();
-                            Toast.makeText(mBeatBox.getContext(), e.toString(), Toast.LENGTH_LONG).show();
+                            Toast.makeText(mBeatBoxFragment.getActivity(), e.toString(), Toast.LENGTH_LONG).show();
                         }
                     }
                 })
