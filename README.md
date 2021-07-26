@@ -4,5 +4,5 @@ BeatBox is an app for playing different musical sounds.
 2. The user can add any new sounds to the app (that will be stored with the app's private files. As of now, the user can only add .mp3 and .wav files only)
 
 Note:
-1. SoundPool has been used for controlling the audio plays.
-2. Assets and AssetManager have been used to manage the raw audio files.
+1. SoundPool has been used for controlling the audio files and their plays.
+2. Assets and AssetManager have been used to manage the audio files.
